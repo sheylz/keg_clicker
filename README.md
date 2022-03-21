@@ -6,4 +6,4 @@ Click on Keg. Upgrade Keg.
 ## What is Keg Clicker?
 
 
-Keg Clicker is a clicker game, where you need to click on Keg!
+Everything is very simple: Keg Clicker is a clicker game, where you need to click on Keg!
