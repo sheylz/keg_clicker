@@ -7,12 +7,15 @@ function getCookie(name) {
 	return matches ? decodeURIComponent(matches[1]) : undefined;
 }
 
+// Убрано для проверки
 
-if (clicks != 1 && clicks != NaN) {
-    clicks = getCookie('kega_clicks')
-} else {
-    clicks = 1
-}
+// if (clicks != 1 && clicks != NaN) {
+//     clicks = getCookie('kega_clicks')
+// } else {
+//     clicks = 1
+// }
+
+// Если уже апгрейдился, то только тогда clicks_per_upg будут получать значение из cookie
 
 clicks_per_upg = getCookie('clicks_per_upg')
 update_clicks()
