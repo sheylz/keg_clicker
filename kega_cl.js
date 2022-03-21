@@ -17,7 +17,11 @@ function getCookie(name) {
 
 // Если уже апгрейдился, то только тогда clicks_per_upg будут получать значение из cookie
 
-clicks_per_upg = getCookie('clicks_per_upg')
+// Убрано для проверки
+// Надо будет ремейкнуть систему получения апгрейдов из cookie (новую систему я вкратце описал выше)
+// Кто читает комментарии тот лох
+
+// clicks_per_upg = getCookie('clicks_per_upg')
 update_clicks()
 if (clicks >= 20) {
     document.getElementById("upg_kega").style.visibility = "visible"; // Кнопка апгрейда кеги
