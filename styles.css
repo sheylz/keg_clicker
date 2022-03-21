@@ -1,0 +1,56 @@
+    h1, a, p, h2, h3, h4, button {
+    color:white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+/* img.kega {
+    width: 18%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    size: 100%;
+} */
+
+.header {
+    height: 60vh;
+    background: black;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#kega {
+    width: 200px;
+    height: 400px;
+}
+
+html {
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+}
+
+#counter {
+    font-size: 28px;
+}
+
+#upg_kega {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+}
+
+#upg_kega:hover {
+    border-color: grey;
+    color: grey;
+    transition: 0.5s;
+}
