@@ -7,3 +7,5 @@ Click on Keg. Upgrade Keg.
 
 
 Everything is very simple: Keg Clicker is a clicker game, where you need to click on Keg!
+
+Play Keg Clicker: https://sheylz.github.io/keg_clicker/kega.html

@@ -7,7 +7,11 @@ function getCookie(name) {
 	return matches ? decodeURIComponent(matches[1]) : undefined;
 }
 
-clicks = getCookie('kega_clicks')
+
+if (clicks != 1) {
+    clicks = getCookie('kega_clicks')
+}
+
 clicks_per_upg = getCookie('clicks_per_upg')
 update_clicks()
 if (clicks >= 20) {
