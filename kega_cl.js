@@ -8,8 +8,10 @@ function getCookie(name) {
 }
 
 
-if (clicks != 1) {
+if (clicks != 1 && clicks != NaN) {
     clicks = getCookie('kega_clicks')
+} else {
+    clicks = 1
 }
 
 clicks_per_upg = getCookie('clicks_per_upg')
