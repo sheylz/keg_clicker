@@ -30,25 +30,21 @@ if (clicks >= 20) {
 function cl__() {
     clicks = +clicks + +clicks_per_upg
     update_clicks()
-    if (clicks >= 20) {
-        document.getElementById("upg_kega").style.visibility = "visible"; // Кнопка апгрейда кеги
-    }
-    else if (clicks < 20) {
-        document.getElementById("upg_kega").style.visibility = "hidden";
-    }
 }
 
-window.onbeforeunload = function(){
+window.onbeforeunload = function() {
         document.cookie = "kega_clicks=" + clicks
         document.cookie = "clicks_per_upg=" + clicks_per_upg
 }
 
 function buy_upg() {
-    clicks_per_upg++
-    clicks -= 20
-    update_clicks()
+    if (clicks >= 20) {
+        clicks_per_upg++
+        clicks -= 20
+        update_clicks()
+    }
 }
 
 function update_clicks() {
-    document.getElementById("counter").textContent = "Нажатий на Кегу: " + clicks;
+    document.getElementById("counter").textContent = "Кег: " + clicks;
 }
