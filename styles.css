@@ -45,7 +45,8 @@ html {
     color: white;
     border-style: solid;
     border-color: white;
-    margin: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 #upg_kega:hover {
